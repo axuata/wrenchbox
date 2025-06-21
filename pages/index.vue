@@ -9,7 +9,7 @@ type Update = {
 
 const updates: Update[] = [
   {
-    date: '2025-06-20',
+    date: '2025-06-21',
     title: t('pages.home.updates.0.title'),
     desc: t('pages.home.updates.0.desc'),
   }
