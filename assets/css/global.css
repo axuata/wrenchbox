@@ -1,0 +1,17 @@
+body {
+    @apply bg-white;
+
+    * {
+        font-family: 'Inter', 'Noto Sans JP', system-ui;
+    }
+
+    .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+    }
+}
+
+body {
+    a {
+        @apply text-blue-6;
+    }
+}

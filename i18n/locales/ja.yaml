@@ -1,0 +1,60 @@
+layout:
+  header:
+    home: 'ホーム'
+    what_is: 'Wrenchboxとは？'
+    change_lang: '言語の変更'
+  sidebar:
+    hero:
+      title: 'Wrenchbox'
+      desc: '開発者のためのツールボックス'
+    pages:
+      home: 'ホーム'
+      what_is: 'Wrenchboxとは？'
+    tools:
+      text: '文字列'
+pages:
+  home:
+    hero:
+      developers: '開発者'
+      toolbox: 'のためのツールボックス'
+    links:
+      what_is: 'Wrenchboxとは？'
+    features:
+      lightweight:
+        title: '軽量'
+        desc: '出来る限り無駄を省いているので、非常に軽量です。'
+      secure:
+        title: '安全'
+        desc: 'サーバーにデータを一切送信してないので、安全です。'
+    updates:
+      title: '更新履歴'
+      0:
+        title: 'Alphaバージョンを公開しました！🅱️'
+        desc: 'ツールはまだ1つしかありませんが…'
+  about:
+    title: 'Wrenchboxとは？'
+    main:
+      what_is:
+        headline: 'Wrenchboxって何？'
+        is_a: 'Wrenchbox🔧は、色々なツールを集めた開発者向けのツールボックスです！（まだ少ないですが）'
+        add: '自分が欲しいツールをどんどん追加していく予定です。'
+      using:
+        headline: '使用しているライブラリ・フレームワーク'
+        nuxt: '直感的なVue.jsのメタフレームワーク'
+        vuejs: '軽量なJavaScriptフレームワーク'
+        unocss: 'On-demandで動作する原子CSSエンジン'
+tools:
+  text:
+    character_counter:
+      meta:
+        title: '文字数カウンター'
+        desc: '文字数を数えるツールです。'
+      main:
+        results:
+          length: '総文字数'
+          lengthWithoutSpaceAndBreaks: 'スペースを改行を除いた総文字数'
+          lengthWithoutBreaks: '改行を除いた総文字数'
+          lines: '行数'
+          linesWithoutEmptyLines: '空行を除いた行数'
+        copy: 'コピー'
+        enter_here: 'ここにテキストを入力'

@@ -1,0 +1,60 @@
+layout:
+  header:
+    home: 'Home'
+    what_is: 'What is Wrenchbox?'
+    change_lang: 'Change Language'
+  sidebar:
+    hero:
+      title: 'Wrenchbox'
+      desc: 'Toolbox for Developers'
+    pages:
+      home: 'Home'
+      what_is: 'What is Wrenchbox?'
+    tools:
+      text: 'Text'
+pages:
+  home:
+    hero:
+      developers: 'Developers'
+      toolbox: 'Toolbox for'
+    links:
+      what_is: 'What is Wrenchbox?'
+    features:
+      lightweight:
+        title: 'Lightweight'
+        desc: 'As much waste as possible is eliminated, making it very lightweight.'
+      secure:
+        title: 'Secure'
+        desc: 'No data is sent to the server, so it is safe.'
+    updates:
+      title: 'Changelog'
+      0:
+        title: 'Wrenchbox has been published ✨'
+        desc: 'The development is finally done!'
+  about:
+    title: 'What is Wrenchbox?'
+    main:
+      what_is:
+        headline: 'What''s Wrenchbox?'
+        is_a: 'Wrenchbox🔧 is a toolbox for developers with many tools! (though not many yet)'
+        add: 'I plan to add the tools I want.'
+      using:
+        headline: 'Libraries and Frameworks Used'
+        nuxt: 'Intuitive meta-framework for Vue.js'
+        vuejs: 'Lightweight JavaScript framework'
+        unocss: 'On-demand atomic CSS engine'
+tools:
+  text:
+    character_counter:
+      meta:
+        title: 'Character Counter'
+        desc: 'Count character length easily.'
+      main:
+        results:
+          length: 'Length'
+          lengthWithoutSpaceAndBreaks: 'Length without space and breaks'
+          lengthWithoutBreaks: 'Length without line breaks'
+          lines: 'Lines'
+          linesWithoutEmptyLines: 'Lines without empty lines'
+        copy: 'Copy'
+        enter_here: 'Enter text here'
