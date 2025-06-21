@@ -29,8 +29,8 @@ pages:
     updates:
       title: 'Changelog'
       0:
-        title: 'Wrenchbox has been published ✨'
-        desc: 'The development is finally done!'
+        title: 'The alpha version has been published 🅱️'
+        desc: 'There is only one tool though...'
   about:
     title: 'What is Wrenchbox?'
     main:
