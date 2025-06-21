@@ -21,11 +21,17 @@ const {t} = useI18n();
 
     <div class="w-full h-1px bg-gray-2 my-10px" />
 
-    <section>
+    <section class="flex flex-col gap-18px">
       <LSidebarToolGroup :title="t('layout.sidebar.tools.text')" tag="text">
         <NuxtLinkLocale to="/tools/text/character-counter/" class="flex items-center gap-3px text-14px py-4px px-8px font-500 text-shadow-sm bg-#f9f9f9 text-gray-8 hover:bg-gray-1 transition-all duration-100 w-full rounded-8px">
           <Icon name="tabler:abc" class="text-16px" />
           <span>{{ t('tools.text.character_counter.meta.title') }}</span>
+        </NuxtLinkLocale>
+      </LSidebarToolGroup>
+      <LSidebarToolGroup :title="t('layout.sidebar.tools.generators')" tag="generators">
+        <NuxtLinkLocale to="/tools/generators/uuid-generator/" class="flex items-center gap-3px text-14px py-4px px-8px font-500 text-shadow-sm bg-#f9f9f9 text-gray-8 hover:bg-gray-1 transition-all duration-100 w-full rounded-8px">
+          <Icon name="tabler:abc" class="text-16px" />
+          <span>{{ t('tools.generators.uuid_generator.meta.title') }}</span>
         </NuxtLinkLocale>
       </LSidebarToolGroup>
     </section>

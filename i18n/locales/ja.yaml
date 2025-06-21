@@ -12,6 +12,7 @@ layout:
       what_is: 'Wrenchboxとは？'
     tools:
       text: '文字列'
+      generators: '生成'
 pages:
   home:
     hero:
@@ -28,8 +29,11 @@ pages:
         desc: 'サーバーにデータを一切送信してないので、安全です。'
     updates:
       title: '更新履歴'
-      0:
-        title: 'Alphaバージョンを公開しました！🅱️'
+      added_uuid:
+        title: 'UUID生成ツールを追加しました！'
+        desc: '簡単にUUIDを生成することができます。'
+      alpha_published:
+        title: 'Alphaバージョンを公開しました！'
         desc: 'ツールはまだ1つしかありませんが…'
   about:
     title: 'Wrenchboxとは？'
@@ -58,3 +62,18 @@ tools:
           linesWithoutEmptyLines: '空行を除いた行数'
         copy: 'コピー'
         enter_here: 'ここにテキストを入力'
+  generators:
+    uuid_generator:
+      meta:
+        title: 'UUID生成'
+        desc: 'UUIDを生成するツールです。'
+      main:
+        settings: '設定'
+        uuid_version: 'UUIDのバージョン'
+        uuid_count: '生成する回数'
+        advanced_settings: '拡張設定（バージョン3と5に必須）'
+        name: '名前'
+        namespace: '名前空間（UUID）'
+        generate: '生成'
+        nothing: 'まだ何もありません...'
+        name_or_namespace_empty: '名前か名前空間が空です。'

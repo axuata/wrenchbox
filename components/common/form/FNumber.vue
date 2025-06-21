@@ -69,9 +69,9 @@ function onClick(type: 'decrease' | 'increase') {
 
 <template>
   <div v-if="type === 'updown'" class="flex items-center">
-    <button class="b-(solid 1px gray-2) flex items-center justify-center p-3px rounded-6px hover:b-gray-3" @click="onClick('decrease')"><Icon name="tabler:caret-left-filled" /></button>
+    <button class="b-(solid 1px gray-2) flex items-center justify-center p-3px rounded-6px hover:b-gray-3 bg-white" @click="onClick('decrease')"><Icon name="tabler:caret-left-filled" /></button>
     <span class="w-40px text-center">{{ model }}</span>
-    <button class="b-(solid 1px gray-2) flex items-center justify-center p-3px rounded-6px hover:b-gray-3" @click="onClick('increase')"><Icon name="tabler:caret-right-filled" /></button>
+    <button class="b-(solid 1px gray-2) flex items-center justify-center p-3px rounded-6px hover:b-gray-3 bg-white" @click="onClick('increase')"><Icon name="tabler:caret-right-filled" /></button>
   </div>
   <div v-else :style="{ width: length }" :class="classes" class="px-6px py-2px flex items-center gap-6px">
     <Icon v-if="leadingIcon" :name="leadingIcon" class="text-gray-8" />

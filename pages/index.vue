@@ -10,8 +10,13 @@ type Update = {
 const updates: Update[] = [
   {
     date: '2025-06-21',
-    title: t('pages.home.updates.0.title'),
-    desc: t('pages.home.updates.0.desc'),
+    title: t('pages.home.updates.added_uuid.title'),
+    desc: t('pages.home.updates.added_uuid.desc'),
+  },
+  {
+    date: '2025-06-21',
+    title: t('pages.home.updates.alpha_published.title'),
+    desc: t('pages.home.updates.alpha_published.desc'),
   }
 ];
 </script>
@@ -38,7 +43,7 @@ const updates: Update[] = [
       <div>
         <p class="text-24px font-600 text-shadow-sm text-gray-8">{{ t('pages.home.updates.title') }}</p>
       </div>
-      <div class="py-12px flex flex-col gap-8px">
+      <div class="py-12px flex flex-col gap-10px">
         <div v-for="update in updates" class="flex gap-12px">
           <div class="pt-3px">
             <p class="font-500 text-shadow-sm text-gray-7">{{ update.date }}</p>

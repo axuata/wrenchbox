@@ -12,6 +12,7 @@ layout:
       what_is: 'What is Wrenchbox?'
     tools:
       text: 'Text'
+      generators: 'Generators'
 pages:
   home:
     hero:
@@ -28,8 +29,11 @@ pages:
         desc: 'No data is sent to the server, so it is safe.'
     updates:
       title: 'Changelog'
-      0:
-        title: 'The alpha version has been published 🅱️'
+      added_uuid:
+        title: 'UUID Generator has been added.'
+        desc: 'You can generate uuid easily.'
+      alpha_published:
+        title: 'The alpha version has been published!'
         desc: 'There is only one tool though...'
   about:
     title: 'What is Wrenchbox?'
@@ -58,3 +62,18 @@ tools:
           linesWithoutEmptyLines: 'Lines without empty lines'
         copy: 'Copy'
         enter_here: 'Enter text here'
+  generators:
+    uuid_generator:
+      meta:
+        title: 'UUID Generaotrs'
+        desc: 'Generate UUID Efficiently.'
+      main:
+        settings: 'Settings'
+        uuid_version: 'UUID Version'
+        uuid_count: 'UUID Count'
+        advanced_settings: 'Advanced Settings (Needed for version 3 and 5)'
+        name: 'Name'
+        namespace: 'Namespace (UUID)'
+        generate: 'Generate'
+        nothing: 'Nothing here yet...'
+        name_or_namespace_empty: 'Name or namespace is empty.'

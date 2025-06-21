@@ -4,7 +4,8 @@ import FTextarea from "~/components/common/form/FTextarea.vue";
 const values = ref({
   text: 'Initial Value',
   number: 12,
-  textarea: 'Initial Textarea Value'
+  textarea: 'Initial Textarea Value',
+  select: 'Pizza'
 });
 </script>
 
@@ -45,6 +46,28 @@ const values = ref({
       <FTextarea v-model="values.textarea" width="200px" height="200px" />
       <FTextarea v-model="values.textarea" width="250px" height="400px" is-resizable />
       <FTextarea v-model="values.textarea" :max-length="18" />
+    </section>
+    <section class="bg-white b-(solid 1px gray-2) rounded-12px p-16px flex flex-col gap-8px">
+      <FSelect v-model="values.select">
+        <option>Apples</option>
+        <option>Pizza</option>
+        <option>Pasta</option>
+      </FSelect>
+      <FSelect v-model="values.select" leading-icon="tabler:icons">
+        <option>Apples</option>
+        <option>Pizza</option>
+        <option>Pasta</option>
+      </FSelect>
+      <FSelect v-model="values.select" leading-icon="tabler:icons" trailing-icon="tabler:icons">
+        <option>Apples</option>
+        <option>Pizza</option>
+        <option>Pasta</option>
+      </FSelect>
+      <FSelect v-model="values.select" trailing-icon="tabler:icons">
+        <option>Apples</option>
+        <option>Pizza</option>
+        <option>Pasta</option>
+      </FSelect>
     </section>
   </main>
 </template>
