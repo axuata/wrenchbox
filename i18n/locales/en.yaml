@@ -9,7 +9,7 @@ layout:
       desc: 'Toolbox for Developers'
     pages:
       home: 'Home'
-      what_is: 'What is Wrenchbox?'
+      updates: 'Updates'
     tools:
       text: 'Text'
       generators: 'Generators'
@@ -27,26 +27,32 @@ pages:
       secure:
         title: 'Secure'
         desc: 'No data is sent to the server, so it is safe.'
+    about:
+      title: 'What is Wrenchbox?'
+      main:
+        what_is:
+          headline: 'What''s Wrenchbox?'
+          is_a: 'Wrenchbox🔧 is a toolbox for developers with many tools! (though not many yet)'
+          add: 'I plan to add the tools I want.'
+        using:
+          headline: 'Libraries and Frameworks Used'
+          nuxt: 'Intuitive meta-framework for Vue.js'
+          vuejs: 'Lightweight JavaScript framework'
+          unocss: 'On-demand atomic CSS engine'
+  updates:
+    title:
+      title: 'Updates'
+      desc: 'Bug fixes and other minor adjustments are excluded.'
     updates:
-      title: 'Changelog'
-      added_uuid:
-        title: 'UUID Generator has been added.'
-        desc: 'You can generate uuid easily.'
+      added_updates_page:
+        title: 'Updates page added 📝'
+        desc: 'The "About Wrenchbox" section was removed and merged into the home page.'
+      added_uuid_tool:
+        title: 'UUID Generator added 🔑'
+        desc: 'Easily generate UUIDs with this tool.'
       alpha_published:
-        title: 'The alpha version has been published!'
-        desc: 'There is only one tool though...'
-  about:
-    title: 'What is Wrenchbox?'
-    main:
-      what_is:
-        headline: 'What''s Wrenchbox?'
-        is_a: 'Wrenchbox🔧 is a toolbox for developers with many tools! (though not many yet)'
-        add: 'I plan to add the tools I want.'
-      using:
-        headline: 'Libraries and Frameworks Used'
-        nuxt: 'Intuitive meta-framework for Vue.js'
-        vuejs: 'Lightweight JavaScript framework'
-        unocss: 'On-demand atomic CSS engine'
+        title: 'Alpha version released 🧪'
+        desc: 'Not many tools are available yet, but stay tuned...'
 tools:
   text:
     character_counter:

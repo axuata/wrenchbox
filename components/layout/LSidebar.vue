@@ -13,10 +13,7 @@ const {t} = useI18n();
 
     <section class="px-16px flex flex-col gap-7px">
       <LSidebarLink :text="t('layout.sidebar.pages.home')" icon="tabler:home" to="/" />
-      <LSidebarLink :text="t('layout.sidebar.pages.what_is')" icon="tabler:sitemap" to="/about/" />
-      <DevOnly>
-        <LSidebarLink text="UI Test (Dev)" icon="tabler:layout" to="/_dev/ui-test/" />
-      </DevOnly>
+      <LSidebarLink :text="t('layout.sidebar.pages.updates')" icon="tabler:sitemap" to="/updates/" />
     </section>
 
     <div class="w-full h-1px bg-gray-2 my-10px" />

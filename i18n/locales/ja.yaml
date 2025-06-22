@@ -9,7 +9,7 @@ layout:
       desc: '開発者のためのツールボックス'
     pages:
       home: 'ホーム'
-      what_is: 'Wrenchboxとは？'
+      updates: '更新履歴'
     tools:
       text: '文字列'
       generators: '生成'
@@ -27,26 +27,32 @@ pages:
       secure:
         title: '安全'
         desc: 'サーバーにデータを一切送信してないので、安全です。'
-    updates:
+    about:
+      title: 'Wrenchboxとは？'
+      main:
+        what_is:
+          headline: 'Wrenchboxって何？'
+          is_a: 'Wrenchbox🔧は、色々なツールを集めた開発者向けのツールボックスです！（まだ少ないですが）'
+          add: '自分が欲しいツールをどんどん追加していく予定です。'
+        using:
+          headline: '使用しているライブラリ・フレームワーク'
+          nuxt: '直感的なVue.jsのメタフレームワーク'
+          vuejs: '軽量なJavaScriptフレームワーク'
+          unocss: 'On-demandで動作する原子CSSエンジン'
+  updates:
+    title:
       title: '更新履歴'
-      added_uuid:
-        title: 'UUID生成ツールを追加しました！'
+      desc: 'バグ修正やその他の微調整は除きます。'
+    updates:
+      added_updates_page:
+        title: '更新履歴ページを追加しました 📝'
+        desc: '「Wrenchboxについて」を削除しホームに追加しました。'
+      added_uuid_tool:
+        title: 'UUID生成ツールを追加しました 🔑'
         desc: '簡単にUUIDを生成することができます。'
       alpha_published:
-        title: 'Alphaバージョンを公開しました！'
-        desc: 'ツールはまだ1つしかありませんが…'
-  about:
-    title: 'Wrenchboxとは？'
-    main:
-      what_is:
-        headline: 'Wrenchboxって何？'
-        is_a: 'Wrenchbox🔧は、色々なツールを集めた開発者向けのツールボックスです！（まだ少ないですが）'
-        add: '自分が欲しいツールをどんどん追加していく予定です。'
-      using:
-        headline: '使用しているライブラリ・フレームワーク'
-        nuxt: '直感的なVue.jsのメタフレームワーク'
-        vuejs: '軽量なJavaScriptフレームワーク'
-        unocss: 'On-demandで動作する原子CSSエンジン'
+        title: 'Alphaバージョンを公開しました 🧪'
+        desc: 'ツールはまだ少ないですが...'
 tools:
   text:
     character_counter:
