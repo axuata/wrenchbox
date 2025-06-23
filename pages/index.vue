@@ -14,8 +14,8 @@ const {t, localeProperties} = useI18n();
         <CButton type="link" text="GitHub" icon="logos:github-icon" to="https://github.com/axuata/wrenchbox" />
       </div>
       <div class="flex flex-wrap gap-24px">
-        <CIconCard :title="t('pages.home.features.lightweight.title')" :desc="t('pages.home.features.lightweight.desc')" icon="twemoji:high-voltage" />
-        <CIconCard :title="t('pages.home.features.secure.title')" :desc="t('pages.home.features.secure.desc')" icon="twemoji:shield" />
+        <CIconCard :title="t('pages.home.features.lightweight.title')" :desc="t('pages.home.features.lightweight.desc')" icon="fluent-emoji:high-voltage" />
+        <CIconCard :title="t('pages.home.features.secure.title')" :desc="t('pages.home.features.secure.desc')" icon="fluent-emoji:shield" />
       </div>
     </section>
 

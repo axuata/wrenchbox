@@ -11,7 +11,7 @@ const props = defineProps<{
 <template>
   <NuxtLinkLocale v-if="to" :to :target class="flex items-center gap-6px hover:scale-103 transition-all duration-100">
     <div class="bg-gray-1 size-50px rounded-12px flex items-center justify-center">
-      <Icon :name="icon" class="size-22px" />
+      <Icon :name="icon" class="size-25px" />
     </div>
     <div class="line-height-tight">
       <p class="text-20px font-600 text-gray-8 text-shadow-sm">{{ title }}</p>
@@ -20,7 +20,7 @@ const props = defineProps<{
   </NuxtLinkLocale>
   <div v-else class="flex items-center gap-6px hover:scale-103 transition-all duration-100">
     <div class="bg-gray-1 size-50px rounded-12px flex items-center justify-center">
-      <Icon :name="icon" class="size-22px" />
+      <Icon :name="icon" class="size-25px" />
     </div>
     <div class="line-height-tight">
       <p class="text-20px font-600 text-gray-8 text-shadow-sm">{{ title }}</p>

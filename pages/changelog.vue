@@ -10,18 +10,18 @@ type Update = {
 const updates: Update[] = [
   {
     date: '2025-06-22',
-    title: t('pages.updates.updates.added_updates_page.title'),
-    desc: t('pages.updates.updates.added_updates_page.desc')
+    title: t('pages.changelog.items.added_updates_page.title'),
+    desc: t('pages.changelog.items.added_updates_page.desc')
   },
   {
     date: '2025-06-21',
-    title: t('pages.updates.updates.added_uuid_tool.title'),
-    desc: t('pages.updates.updates.added_uuid_tool.desc')
+    title: t('pages.changelog.items.added_uuid_tool.title'),
+    desc: t('pages.changelog.items.added_uuid_tool.desc')
   },
   {
     date: '2025-06-21',
-    title: t('pages.updates.updates.alpha_published.title'),
-    desc: t('pages.updates.updates.alpha_published.desc')
+    title: t('pages.changelog.items.alpha_published.title'),
+    desc: t('pages.changelog.items.alpha_published.desc')
   }
 ];
 </script>
@@ -29,8 +29,8 @@ const updates: Update[] = [
 <template>
   <main class="px-38px">
     <section class="py-58px line-height-tight">
-      <p class="text-50px font-600 text-shadow-md text-gray-8">{{ t('pages.updates.title.title') }}</p>
-      <p class="text-gray-6 font-500 text-shadow-sm">{{ t('pages.updates.title.desc') }}</p>
+      <p class="text-50px font-600 text-shadow-md text-gray-8">{{ t('pages.changelog.title.title') }}</p>
+      <p class="text-gray-6 font-500 text-shadow-sm">{{ t('pages.changelog.title.desc') }}</p>
     </section>
 
     <section class="flex flex-col gap-28px">

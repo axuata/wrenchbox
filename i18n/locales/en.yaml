@@ -1,7 +1,7 @@
 layout:
   header:
     home: 'Home'
-    what_is: 'What is Wrenchbox?'
+    changelog: 'Changelog'
     change_lang: 'Change Language'
   sidebar:
     hero:
@@ -9,7 +9,7 @@ layout:
       desc: 'Toolbox for Developers'
     pages:
       home: 'Home'
-      updates: 'Updates'
+      changelog: 'Changelog'
     tools:
       text: 'Text'
       generators: 'Generators'
@@ -39,11 +39,11 @@ pages:
           nuxt: 'Intuitive meta-framework for Vue.js'
           vuejs: 'Lightweight JavaScript framework'
           unocss: 'On-demand atomic CSS engine'
-  updates:
+  changelog:
     title:
-      title: 'Updates'
+      title: 'Changelog'
       desc: 'Bug fixes and other minor adjustments are excluded.'
-    updates:
+    items:
       added_updates_page:
         title: 'Updates page added 📝'
         desc: 'The "About Wrenchbox" section was removed and merged into the home page.'

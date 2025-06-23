@@ -13,7 +13,7 @@ const {t} = useI18n();
 
     <section class="px-16px flex flex-col gap-7px">
       <LSidebarLink :text="t('layout.sidebar.pages.home')" icon="tabler:home" to="/" />
-      <LSidebarLink :text="t('layout.sidebar.pages.updates')" icon="tabler:sitemap" to="/updates/" />
+      <LSidebarLink :text="t('layout.sidebar.pages.changelog')" icon="tabler:sitemap" to="/changelog/" />
     </section>
 
     <div class="w-full h-1px bg-gray-2 my-10px" />
@@ -36,7 +36,7 @@ const {t} = useI18n();
     <footer class="mt-auto flex flex-col text-center py-24px">
       <p class="text-14px font-600 text-shadow-sm text-gray-7">© 2025 Axuata.</p>
       <p class="text-14px font-600 text-shadow-sm text-gray-7">Licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
-      <p class="text-14px font-600 text-shadow-sm text-gray-7">Icons by <a href="https://tabler.io/icons">Tabler</a> and <a href="https://github.com/twitter/twemoji">Twemoji</a>.</p>
+      <p class="text-14px font-600 text-shadow-sm text-gray-7">Icons by <a href="https://tabler.io/icons">Tabler</a> and <a href="https://github.com/microsoft/fluentui-emoji">Fluent Emoji</a>.</p>
     </footer>
   </aside>
 </template>

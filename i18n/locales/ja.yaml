@@ -1,7 +1,7 @@
 layout:
   header:
     home: 'ホーム'
-    what_is: 'Wrenchboxとは？'
+    changelog: '更新履歴'
     change_lang: '言語の変更'
   sidebar:
     hero:
@@ -9,7 +9,7 @@ layout:
       desc: '開発者のためのツールボックス'
     pages:
       home: 'ホーム'
-      updates: '更新履歴'
+      changelog: '更新履歴'
     tools:
       text: '文字列'
       generators: '生成'
@@ -39,11 +39,11 @@ pages:
           nuxt: '直感的なVue.jsのメタフレームワーク'
           vuejs: '軽量なJavaScriptフレームワーク'
           unocss: 'On-demandで動作する原子CSSエンジン'
-  updates:
+  changelog:
     title:
       title: '更新履歴'
       desc: 'バグ修正やその他の微調整は除きます。'
-    updates:
+    items:
       added_updates_page:
         title: '更新履歴ページを追加しました 📝'
         desc: '「Wrenchboxについて」を削除しホームに追加しました。'
